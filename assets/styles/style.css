@@ -1,0 +1,38 @@
+* {
+    font-family: 'Caveat', cursive;
+}
+
+.main {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+.header {
+    font-size: xx-large;
+}
+
+.navbar-brand {
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+form {
+    font-size: x-large;
+}
+
+button {
+    font-size: x-large !important;
+}
+
+.form-text + .form-text {
+    display: none;
+}
+
+input:valid + .form-text + .form-text {
+    display: inline;
+}
+
+input:valid + .form-text {
+    display: none;
+}
+
